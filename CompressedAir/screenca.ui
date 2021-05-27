@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ScreenCA</class>
+ <widget class="QWidget" name="ScreenCA">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1172</width>
+    <height>679</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QLabel" name="backgroundLabel">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>30</y>
+     <width>811</width>
+     <height>511</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="graphics/resources.qrc">:/compressedair2.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelCompressor1">
+   <property name="geometry">
+    <rect>
+     <x>323</x>
+     <y>349</y>
+     <width>81</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="graphics/resources.qrc">:/compressorOff.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelC1FlowRate">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>300</y>
+     <width>131</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Compressor #1</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelSensorPSH">
+   <property name="geometry">
+    <rect>
+     <x>804</x>
+     <y>328</y>
+     <width>98</width>
+     <height>42</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="graphics/resources.qrc">:/sensorPSHoff.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>866</x>
+     <y>389</y>
+     <width>31</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>bar</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelSensorPSLL">
+   <property name="geometry">
+    <rect>
+     <x>804</x>
+     <y>448</y>
+     <width>131</width>
+     <height>42</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="graphics/resources.qrc">:/sensorPSLLoff.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelC2FlowRate">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>440</y>
+     <width>141</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Compressor #2</string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>290</y>
+     <width>120</width>
+     <height>80</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Filling</string>
+   </property>
+   <widget class="QLabel" name="labelValueAirAmountNm">
+    <property name="geometry">
+     <rect>
+      <x>6</x>
+      <y>40</y>
+      <width>60</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>00</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>41</y>
+      <width>41</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nm³</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QProgressBar" name="progressBar">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>190</y>
+     <width>41</width>
+     <height>281</height>
+    </rect>
+   </property>
+   <property name="value">
+    <number>50</number>
+   </property>
+   <property name="orientation">
+    <enum>Qt::Vertical</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelCompressor0">
+   <property name="geometry">
+    <rect>
+     <x>323</x>
+     <y>214</y>
+     <width>81</width>
+     <height>81</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="graphics/resources.qrc">:/compressorOff.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelSensorPSL">
+   <property name="geometry">
+    <rect>
+     <x>804</x>
+     <y>404</y>
+     <width>131</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap resource="graphics/resources.qrc">:/sensorPSLoff.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QLabel" name="labelPI">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>390</y>
+     <width>48</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>0</string>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="graphics/resources.qrc"/>
+ </resources>
+ <connections/>
+</ui>
