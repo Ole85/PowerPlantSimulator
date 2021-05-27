@@ -8,4 +8,4 @@ This program is about developing a PowerPlant Simulator including the systems
 * Lubricating Oil System
 * Exhaust Cleaning System
 
-![]()
+![](overview.gif)
