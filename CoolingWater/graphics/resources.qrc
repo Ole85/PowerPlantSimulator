@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>compressoron.png</file>
+        <file>compressorOff.png</file>
+        <file>sensorPSLoff.png</file>
+        <file>sensorPSLon.png</file>
+        <file>sensorPSLLoff.png</file>
+        <file>sensorPSLLon.png</file>
+        <file>compressedairv5.png</file>
+        <file>sensorPSHoff.png</file>
+        <file>sensorPSHon.png</file>
+        <file>compressedair2.png</file>
+    </qresource>
+</RCC>
